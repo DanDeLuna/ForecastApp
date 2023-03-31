@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./Assets/styles.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
     <script src="https://code.jquery.com/jquery.js"></script>
@@ -24,9 +24,11 @@
     </nav>
     <!-- Main Content Container -->
     <div class="container" style="max-width: 90%;">
+        <!-- Main Content Row -->
         <div class="row">
             <!-- City Search Bar -->
             <div class="col-sm-12 col-lg-4 bg-light">
+                <!-- Search Form with Button -->
                 <div>
                     <p><h3>Search for a City</h3></p>
                 </div>
@@ -40,7 +42,9 @@
                     </div>
                 </div>
                 <button class="btn md-3" type="button" id="clear-history">Clear History</button>
+                <!--Searched City List -->
                 <p><h6>Recently searched cities:</h6></p>
+                <!-- added ul with class to remove unordered list style from button -->
                 <ul class="is-hidden" style='list-style:none' id="historyList">
                 </ul>
             </div>
@@ -53,8 +57,9 @@
                                 <span id="city-name" class="city-name align-middle"></span>
                             </div>
                         </div>
+                        <!-- Weather Information Column -->
                         <div class="row">
-
+                            <!-- Weather Information Column -->
                             <div class="col-12 box">
                                 <div id="cityList">
                                     <h3>City Name:</h3>
@@ -71,7 +76,7 @@
                         <h3>5-Day Forecast</h3>
                     </div>
                 </div>
-                <!-- 5 Days Weather -->
+                <!-- 5 Days Weather Forcast list here -->
                 <div class="row" id="days">
                 </div>
             </div>
@@ -82,7 +87,7 @@
     </nav>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 
-    <script src="./Assets/script.js"></script>
+    <script src="./assets/Js/script.js"></script>
 </body>
 
 </html>

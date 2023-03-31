@@ -3,7 +3,7 @@ $(window).on('load', function () {
     checkLocalStorage();
 });
 // API Key
-var APIKey = "b29bfa124a68dd6b7245343a1bd4ecbb";
+var APIKey ="09e0d7e534e41ce68ba5f2577fa5f760";
 var q = "";
 var now = moment();
 //Date and time 
@@ -83,3 +83,7 @@ function displayUVindex(uv) {
         $("#cityList").append('UV-Index : ').append(UVIndex);       
     });
 }
+//added clear histor fuction to clear searched city list
+$("#clear-history").on("click", function (event) {
+    $("#historyList").empty();
+});
