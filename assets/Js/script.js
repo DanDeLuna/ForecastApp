@@ -25,13 +25,11 @@ $("#search-button").on("click", function (event) {
 function createRecentSearchBtn(q) {
     var newLi = $("<li>")
     var newBtn = $('<button>');
-    //Adding Extra ID for Button to stop Creating Duplicate Button on Click
     newBtn.attr('id', 'extraBtn');
     newBtn.addClass("button is-small recentSearch");
     newBtn.text(q);
     newLi.append(newBtn)
     $("#historyList").prepend(newLi);
-    //setting click function to prevent duplicate button
     $("#extraBtn").on("click", function () {
         var newQ = $(this).text();
         getWeather(newQ);

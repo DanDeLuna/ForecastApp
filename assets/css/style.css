@@ -11,9 +11,9 @@ body{
   }  
 .nav-bar{
   text-align: center;
-  background-color: rgb(118, 239, 243); 
+  background-color: rgb(78, 221, 39); 
   border-bottom: solid;
-  border-bottom-color: #856404;  
+  border-bottom-color: #000000;  
   border-bottom-width: 5px; 
 }
 .btn {
@@ -29,10 +29,10 @@ body{
     margin: 0em;    
   }
 .footer {
-    background-color: rgb(118, 239, 243);   
+    background-color: rgb(78, 221, 39);   
     height: 7%;    
     border-top: solid;
-    border-top-color: #856404;  
+    border-top-color: #000000;  
     border-top-width: 5px;
     text-align: center; 
     display: block;
